@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.querySelector('.sidebar');
     const sidebarTop = sidebar.offsetTop;
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('.section');
 
     function stickySidebar() {
         if (window.pageYOffset >= sidebarTop) {
@@ -11,6 +13,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     window.addEventListener('scroll', stickySidebar);
+
+    // 导航功能
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('data-section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(targetId).style.display = 'block';
+        });
+    });
 
     // Mobile menu toggle
     const menuToggle = document.createElement('button');
