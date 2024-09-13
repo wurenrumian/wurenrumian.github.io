@@ -11,6 +11,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const blogPosts = {
         "A": {
             "编程历程": [
+		    {
+                    title: "社交账号",
+                    content: `
+- 微信: wixd_ymnx8z8ag8vp22
+- QQ号: 3068910474 
+- 邮箱: wurenrumian@163.com
+- B站:  https://space.bilibili.com/485981565?spm_id_from=333.1007.0.0
+- 知乎: https://www.zhihu.com/people/slot-69               
+`
+                },
                 {
                     title: "小A的编程经历",
                     content: `多年后，面对 xx 大学计算机专业的录取通知书的时候，小A会回想起那个在使用机械硬盘的台式机上装 jdk 的下午。
