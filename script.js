@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     title: "小A的情感经历",
                     content: `究竟谁在设花人局？
-<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=1850154428&bvid=BV1Mp421f7Ya&cid=500001659843461&p=47&t=218" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="600" width="100%"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=1850154428&bvid=BV1Mp421f7Ya&cid=500001659843461&p=47&t=218&mute=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="600" width="100%"></iframe>
                     `
                 }
             ]
